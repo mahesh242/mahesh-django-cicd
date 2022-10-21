@@ -21,3 +21,5 @@ else
 fi
 
 sudo chmod -R 777 logs
+
+echo "envsetup done"

@@ -2,7 +2,11 @@
 
 source env/bin/activate
 
+echo "virtual env activated"
+
 cd /var/lib/jenkins/workspace/django-cicd/myportfolio/myportfolio
+
+echo "$PWD"
 
 python3 manage.py makemigrations
 python3 manage.py migrate
