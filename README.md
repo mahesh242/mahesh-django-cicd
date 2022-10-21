@@ -19,23 +19,3 @@ This is a Django project that runs a single page web application. It allows one 
 **8)** `gunicorn.service` - This is a Systemd Service configuration file. This configures the gunicorn server to run in the background as a service. It also sets the path to the gunicorn sock file. At the end of the `ExecStart` value, change it to the path of the `wsgi` file of the Django Project. Also set the User to the one that owns the project folder according to the configuration from the youtube video. 
 
 **9)** The rest of the files are normal files you find in a Django Project. Please if you add ssl to your domain then you'll have to update the `app.conf` with the configuration of your ssl.
-
-## :page_with_curl:  _Instructions For Running This Project Locally_
-
-**1)** Fire up your favourite console & clone this repo somewhere:
-
-__`❍ git clonehttps://github.com/ishwar6/django_ci_cd.git`__
-
-**2)** Enter this directory:
-
-__`❍ cd django_ci_cd`__
-
-**3)** Start the server to view the webapp:
-
-__`❍ python manage.py runserver `__
-
-**4)** Open your browser and type in this URL to view the webapp:
-
-__`❍ http://127.0.0.1:8000/`__
-
-__*Happy developing!*__
