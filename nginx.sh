@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Nginx comes MAHESH"
 
 sudo cp -rf app.conf /etc/nginx/sites-available/myportfolio
 chmod 710 /var/lib/jenkins/workspace/django-cicd
