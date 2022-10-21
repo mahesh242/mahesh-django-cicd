@@ -10,7 +10,7 @@ fi
 source env/bin/activate
 
 
-pip install -r requirements.txt
+pip install -r requirement.txt
 
 if [ -d "logs" ] 
 then
