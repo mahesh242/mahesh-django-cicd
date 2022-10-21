@@ -4,7 +4,7 @@ source env/bin/activate
 
 echo "virtual env activated"
 
-cd /var/lib/jenkins/workspace/django-cicd/myportfolio/myportfolio
+cd /var/lib/jenkins/workspace/django-cicd/myportfolio
 
 echo "$PWD"
 
