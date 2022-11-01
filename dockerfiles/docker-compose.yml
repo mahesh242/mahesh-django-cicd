@@ -1,7 +1,7 @@
 version: '3.9'
 
 services:
-  app:
+  myportfolio:
     build:
       context: .
     command: >
@@ -11,10 +11,10 @@ services:
     ports:
       - 8000:8000
     volumes:
-      - ./app:/app
+      - ./myportfolio:/myportfolio
       - ./data/web:/vol/web
     environment:   #replace these
-      - SECRET_KEY=234nkdjhfkj2h3k4jhkjshdfkjhkajsdhfkj 
+      - SECRET_KEY=4ly6@m64mi57l4abvo1_4in_i0jpmcdk71k06^7snm$p_*@w7= 
       - DEBUG=1
       - DB_HOST=host
       - DB_NAME=dev
