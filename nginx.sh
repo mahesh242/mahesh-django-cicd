@@ -2,7 +2,7 @@
 echo "Nginx comes MAHESH"
 
 sudo cp -rf app.conf /etc/nginx/sites-available/myportfolio
-chmod 705 /var/lib/jenkins/workspace/django-cicd
+chmod 775 /var/lib/jenkins/workspace/django-cicd
 
 echo "$USER"
 echo "$PWD"
